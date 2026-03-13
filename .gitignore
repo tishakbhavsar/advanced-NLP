@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# HuggingFace model cache (large files)
+*.bin
+*.safetensors
+*.msgpack
+*.h5
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Claude project memory
+.claude/
+
+# Large data files
+*.zip
+*.tar.gz

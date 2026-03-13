@@ -1,0 +1,5 @@
+,SST-2 Acc,disambig_accuracy,ambig_accuracy,stereotype_rate,bias_score
+fp16 Baseline,0.785,0.34,0.265,0.36,-0.28
+Post-LoRA,0.945,0.325,0.405,0.28,-0.44
+4-bit Baseline,0.68,0.325,0.375,0.265,-0.47
+Post-QLoRA,0.92,0.3,0.44,0.27,-0.46

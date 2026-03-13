@@ -1,0 +1,16 @@
+{
+  "baseline_sst2": 0.68,
+  "qlora_sst2": 0.92,
+  "baseline_bbq": {
+    "disambig_accuracy": 0.325,
+    "ambig_accuracy": 0.375,
+    "stereotype_rate": 0.265,
+    "bias_score": -0.47
+  },
+  "qlora_bbq": {
+    "disambig_accuracy": 0.3,
+    "ambig_accuracy": 0.44,
+    "stereotype_rate": 0.27,
+    "bias_score": -0.46
+  }
+}

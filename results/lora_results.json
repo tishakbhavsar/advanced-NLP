@@ -1,0 +1,16 @@
+{
+  "baseline_sst2": 0.785,
+  "lora_sst2": 0.945,
+  "baseline_bbq": {
+    "disambig_accuracy": 0.34,
+    "ambig_accuracy": 0.265,
+    "stereotype_rate": 0.36,
+    "bias_score": -0.28
+  },
+  "lora_bbq": {
+    "disambig_accuracy": 0.325,
+    "ambig_accuracy": 0.405,
+    "stereotype_rate": 0.28,
+    "bias_score": -0.44
+  }
+}

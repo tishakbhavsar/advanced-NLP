@@ -1,0 +1,92 @@
+{
+  "baseline": {
+    "direct_bias": 0.0562,
+    "per_word_direct_bias": {
+      "programmer": 0.0351,
+      "nurse": 0.0513,
+      "doctor": 0.0915,
+      "engineer": 0.0232,
+      "teacher": 0.0128,
+      "homemaker": 0.149,
+      "secretary": 0.0033,
+      "manager": 0.0106,
+      "lawyer": 0.0474,
+      "chef": 0.0876,
+      "scientist": 0.0064,
+      "artist": 0.0498,
+      "pilot": 0.0272,
+      "journalist": 0.0224,
+      "accountant": 0.0457,
+      "librarian": 0.186,
+      "assistant": 0.1063
+    },
+    "indirect_bias": {
+      "programmer_vs_homemaker": -0.0046,
+      "doctor_vs_nurse": 0.0,
+      "engineer_vs_secretary": -0.0002,
+      "manager_vs_assistant": -0.0042,
+      "scientist_vs_teacher": -0.0002,
+      "lawyer_vs_librarian": -0.0068
+    }
+  },
+  "post_lora": {
+    "direct_bias": 0.0574,
+    "per_word_direct_bias": {
+      "programmer": 0.0607,
+      "nurse": 0.0012,
+      "doctor": 0.094,
+      "engineer": 0.0429,
+      "teacher": 0.0669,
+      "homemaker": 0.046,
+      "secretary": 0.0465,
+      "manager": 0.1235,
+      "lawyer": 0.0633,
+      "chef": 0.0362,
+      "scientist": 0.062,
+      "artist": 0.0023,
+      "pilot": 0.0249,
+      "journalist": 0.086,
+      "accountant": 0.0487,
+      "librarian": 0.09,
+      "assistant": 0.0804
+    },
+    "indirect_bias": {
+      "programmer_vs_homemaker": -0.0064,
+      "doctor_vs_nurse": -0.0046,
+      "engineer_vs_secretary": 0.0003,
+      "manager_vs_assistant": 0.0018,
+      "scientist_vs_teacher": 0.0004,
+      "lawyer_vs_librarian": -0.0132
+    }
+  },
+  "post_qlora": {
+    "direct_bias": 0.0472,
+    "per_word_direct_bias": {
+      "programmer": 0.0082,
+      "nurse": 0.0605,
+      "doctor": 0.0916,
+      "engineer": 0.0048,
+      "teacher": 0.065,
+      "homemaker": 0.0867,
+      "secretary": 0.0005,
+      "manager": 0.1032,
+      "lawyer": 0.0295,
+      "chef": 0.0785,
+      "scientist": 0.0041,
+      "artist": 0.0251,
+      "pilot": 0.0058,
+      "journalist": 0.0271,
+      "accountant": 0.0541,
+      "librarian": 0.0938,
+      "assistant": 0.0635
+    },
+    "indirect_bias": {
+      "programmer_vs_homemaker": -0.0029,
+      "doctor_vs_nurse": 0.0005,
+      "engineer_vs_secretary": -0.0,
+      "manager_vs_assistant": 0.001,
+      "scientist_vs_teacher": -0.0024,
+      "lawyer_vs_librarian": -0.0083
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "baseline": {
+    "sps": 60.69,
+    "geo_sps": 45.82,
+    "stereo_wins": 159,
+    "total_pairs": 262,
+    "geo_valid_pairs": 251,
+    "avg_proj_more": 0.1703,
+    "avg_proj_less": 0.1859
+  },
+  "post_lora": {
+    "sps": 58.78,
+    "geo_sps": 52.19,
+    "stereo_wins": 154,
+    "total_pairs": 262,
+    "geo_valid_pairs": 251,
+    "avg_proj_more": 0.1411,
+    "avg_proj_less": 0.1384
+  },
+  "post_qlora": {
+    "sps": 58.4,
+    "geo_sps": 45.82,
+    "stereo_wins": 153,
+    "total_pairs": 262,
+    "geo_valid_pairs": 251,
+    "avg_proj_more": 0.1428,
+    "avg_proj_less": 0.1421
+  }
+}
